@@ -1,0 +1,20 @@
+# 服务器监听的地址
+addr: "127.0.0.1:5200"
+
+# 数据库文件路径
+dir_path : "/tmp/zerokv_server"
+
+# 默认数据文件大小16MB
+block_size : 16777216
+
+# key的最大值
+max_key_size : 1048576
+
+# value的最大值
+max_value_size : 8388608
+
+# 是否数据同步
+sync : false
+
+# reclaim的阈值
+reclaim_threshold : 64
